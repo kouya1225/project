@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>biyousi</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/top.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+</head>
+
+<body>
+	<header id="head">
+		<ul>
+			<li>
+				<a href="#" id="btn1">
+					<h3>PROFILE</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn2">
+					<h3>CUT</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn3">
+					<h3>CONTACT</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn4">
+					<h3>ACCESS</h3>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<section id="top">
+		<div class="content">
+			<img src="pic/icon.png">
+			<h1>KOUYA OKUMURA</h1>
+			<h2>美容師</h2>
+			<p>samplesamplesamplesample</p>
+		</div>
+	</section>
+	<section class="modal-panel" id="profile">
+		<div class="modal-content">
+			<h2>profile</h2>
+			<img src="">
+			<p></p>
+		</div>
+	</section>
+	<section class="modal-panel" id="cut">
+		<div class="modal-content">
+				<h2>cut</h2>
+			<img src="">
+			<p></p>
+		</div>
+	</section>
+	<section class="modal-panel" id="contact">
+		<div class="modal-content">
+				<h2>contact</h2>
+			<img src="">
+			<p></p>
+		</div>
+	</section>
+	<section class="modal-panel" id="access">
+		<div class="modal-content">
+				<h2>access</h2>
+			<img src="">
+			<p></p>
+		</div>
+	</section>
+	<script type="text/javascript">
+	document.getElementById("btn1").onclick = function() {
+		document.getElementById("profile").style.display = "block"
+		document.getElementById("head").style.display = "none"
+	};
+	document.getElementById("btn2").onclick = function() {
+		document.getElementById("cut").style.display = "block"
+			document.getElementById("head").style.display = "none"
+	};
+	document.getElementById("btn3").onclick = function() {
+		document.getElementById("contact").style.display = "block"
+			document.getElementById("head").style.display = "none"
+	};
+	document.getElementById("btn4").onclick = function() {
+		document.getElementById("access").style.display = "block"
+			document.getElementById("head").style.display = "none"
+	};
+	</script>
+</body>
+
+</html>
