@@ -67,8 +67,9 @@
   color: #000;
   /*アイコン色*/
 }
+.
 
-#menu h2 {
+ #menu-inner h2 {
   font-size: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -78,6 +79,7 @@
 #menu-inner {
   background-image: url(../pic/menu-back.jpg);
   background-size: cover;
+    color: #fff;
 
 
 }
@@ -113,7 +115,7 @@
 }
 #contact-inner ul li{
   font-size: 1.7rem;
-  text-align: left;
+  text-align: center;
   line-height: 170%;
   color: #fff;
 }
