@@ -7,14 +7,16 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 30;
   display: none;
-
 }
-.modal-panel >a{
+.modal-panel.active {
+  display: block;
+}
+
+.modal-panel > a {
   position: relative;
   position: fixed;
   top: -1%;
-  left:78%;
-
+  left: 78%;
 }
 
 .modal-content {
@@ -23,9 +25,6 @@
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  
-
-
 }
 
 #profile .face {
@@ -41,7 +40,6 @@
   padding: 1rem;
   font-size: 200%;
   letter-spacing: 3px;
-
 }
 
 .modal-content>.pro {
@@ -67,9 +65,8 @@
   color: #000;
   /*アイコン色*/
 }
-.
 
- #menu-inner h2 {
+. #menu-inner h2 {
   font-size: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -79,7 +76,7 @@
 #menu-inner {
   background-image: url(../pic/menu-back.jpg);
   background-size: cover;
-    color: #fff;
+  color: #fff;
 
 
 }
@@ -101,49 +98,52 @@
 .menu-right {
   text-align: right;
 }
-#contact-inner{
-    background-image: url(../pic/menu-back.jpg);
-    background-size: cover;
-    color: #fff;
-    font-size: 1.7rem;
+
+#contact-inner {
+  background-image: url(../pic/menu-back.jpg);
+  background-size: cover;
+  color: #fff;
+  font-size: 1.7rem;
 
 
 }
-#contact-inner ul{
+
+#contact-inner ul {
   width: 60%;
   margin: 0 auto;
 }
-#contact-inner ul li{
+
+#contact-inner ul li {
   font-size: 1.7rem;
   text-align: center;
   line-height: 170%;
   color: #fff;
 }
-.sns{
-  padding-top: 1.6rem;
 
+.sns {
+  padding-top: 1.6rem;
 }
 
 
-.sns .sns-icon{
- letter-spacing: 200%;
- display: flex;
+.sns .sns-icon {
+  letter-spacing: 200%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
-
 }
-#back{
+
+#back {
   width: 10%;
 }
-.fab{
+
+.fab {
   width: 10rem;
 }
-#access{
+
+#access {
   line-height: 300%;
 }
-.black{
+
+.black {
   color: black;
 }
-
-
