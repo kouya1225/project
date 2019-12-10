@@ -1,0 +1,30 @@
+
+@media screen and (min-width:768px) {
+
+    /* PC用CSS記述 */
+  
+
+
+}
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* スマートフォン用CSS記述 */
+    body{
+    	width: 100%;
+    	height: 100%;
+    }
+    #top {
+	background-image: url(../pic/image.jpg);
+	background-size: cover;
+}
+   
+   .munus{
+   	font-size: 10rem;
+   }
+  
+
+}
