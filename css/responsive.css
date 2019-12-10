@@ -1,0 +1,26 @@
+
+@media screen and (min-width:768px) {
+
+    /* PC用CSS記述 */
+  
+
+
+}
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* スマートフォン用CSS記述 */
+
+   
+   .munus{
+   	font-size: 10rem;
+   }
+   header{
+   	display: none;
+   }
+  
+
+}

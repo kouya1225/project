@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>biyousi</title>
+	<meta charset="utf-8">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1.0,minimum-scale=1.0>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/top.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	<header id="head">
+		<ul>
+			<li>
+				<a href="#" id="btn1">
+					<h3>PROFILE</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn2">
+					<h3>MENU</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn3">
+					<h3>CONTACT</h3>
+				</a>
+			</li>
+			<li>
+				<a href="#" id="btn4">
+					<h3>ACCESS</h3>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<section id="top">
+		<div class="content">
+			<img class="icon" src="pic/icon.png">
+			<h1>KOUYA OKUMURA</h1>
+			<!--なんか資格を書く-->
+			<h4>美容師</h4>
+			<!--自己紹介文-->
+			<p>samplesamplesamplesample</p>
+		</div>
+	</section>
+	<section class="modal-panel" id="profile">
+		<a href="#" id="back 1">
+			<h1>✖</h1>
+		</a>
+		<div class="modal-content">
+			<img class="face" src="pic/okumura.jpg">
+			<h1>美容師です美容師です</h1>
+			<ul class="pro">
+				<li>最高です最高です最高です最高です最高です最高です</li>
+				<li>最高です最高です最高です最高です最高です最高です</li>
+				<li>最高です最高です最高です最高です最高です最高です</li>
+			</ul>
+		</div>
+	</section>
+	<section class="modal-panel" id="menu">
+		<a href="#" id="back 2">
+			<h1>✖</h1>
+		</a>
+		<div class="modal-content" id="menu-inner">
+			<h2>MENU</h2>
+			<ul class="menus">
+				<li class="menu-left">CUT</li>
+				<li class="menu-right">￥6,000~</li>
+				<li class="menu-left">COLOR</li>
+				<li class="menu-right">￥7,000~</li>
+				<li class="menu-left">PERMANENT</li>
+				<li class="menu-right">￥7,000~</li>
+				<li class="menu-left">SHAVING</li>
+				<li class="menu-right">￥2,000</li>
+				<li class="menu-left">+TAX</li>
+			</ul>
+			<p></p>
+		</div>
+	</section>
+	<section class="modal-panel" id="contact">
+		<a href="#" id="back 3">
+			<h1>✖</h1>
+		</a>
+		<div class="modal-content" id="contact-inner">
+			<h1>CONTACT</h1>
+			<ul>
+				<li>Mail:kouya.slugger1225@gmail.com</li>
+				<li>Phone:090-1847-8006</li>
+				<li>Adress:千葉県松戸市六実1－13－1</li>
+			</ul>
+			<div class="sns">
+				<h1>SNS</h1>
+				<div class="sns-icon">
+
+				
+				<a href="#"><i class="fab fa-3x fa-line"></i></a>
+				<a href="#"><i class="fab fa-3x fa-instagram"></i></a>
+				<a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+			</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="modal-panel" id="access">
+		<a href="#" id="back 4" class="black">
+			<h1>✖</h1>
+		</a>
+		<div class="modal-content">
+			<img src="pic/map.jpg">
+			<h3>千代田線表参道駅より5分</h3>
+			<h3>b1出口を出て直進してBALENCIAGAを過ぎて右へそこから200mで到着</h3>
+			<h2>※ご来店はご予約を済ましてからお願いいたします。</h2>
+		</div>
+	</section>
+	<script type="text/javascript">
+	document.getElementById("btn1").onclick = function() {
+		document.getElementById("profile").style.display = "block"
+		document.getElementById("head").style.display = "none"
+		document.getElementById("back 1").onclick = function() {
+			document.getElementById("profile").style.display = "none"
+			document.getElementById("head").style.display = "block"
+
+		};
+	};
+	document.getElementById("btn2").onclick = function() {
+		document.getElementById("menu").style.display = "block"
+		document.getElementById("head").style.display = "none"
+		document.getElementById("back 2").onclick = function() {
+			document.getElementById("menu").style.display = "none"
+			document.getElementById("head").style.display = "block"
+
+		};
+	};
+
+	document.getElementById("btn3").onclick = function() {
+		document.getElementById("contact").style.display = "block"
+		document.getElementById("head").style.display = "none"
+		document.getElementById("back 3").onclick = function() {
+			document.getElementById("contact").style.display = "none"
+			document.getElementById("head").style.display = "block"
+
+		};
+	};
+	document.getElementById("btn4").onclick = function() {
+		document.getElementById("access").style.display = "block"
+		document.getElementById("head").style.display = "none"
+		document.getElementById("back 4").onclick = function() {
+			document.getElementById("access").style.display = "none"
+			document.getElementById("head").style.display = "block"
+
+		};
+	};
+	</script>
+
+</body>
+
+</html>
