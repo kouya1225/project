@@ -1,9 +1,11 @@
 header{
 
 	position: fixed;
-	background-color: rgb(18,18,18);
+	
 	width: 100%;
 	bottom: 0;
+	padding: 1rem 0;
+
 }
 header>ul{
 		display: flex;
