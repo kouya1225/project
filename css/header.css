@@ -1,15 +1,12 @@
 header {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem 0;
-  z-index: 10;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	padding: 1rem 0;
 }
 
-header > ul {
-  position: relative;
-  width: 100%;
-  display: flex;
-  color: #fff;
-  justify-content: space-around;
+header>ul {
+	display: flex;
+	color: #fff;
+	justify-content: space-around;
 }

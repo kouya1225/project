@@ -9,11 +9,12 @@
   display: none;
   padding: 3rem 0;
 }
+
 .modal-panel.active {
   display: block;
 }
 
-.modal-content > span {
+.modal-content>span {
   position: absolute;
   top: 0;
   right: 0;
@@ -62,8 +63,6 @@
 }
 
 .modal-content>.pro>li:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f00c";
   position: absolute;
   left: 1rem;
   /*左端からのleftアイコンまで*/
