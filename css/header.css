@@ -3,10 +3,14 @@ header {
 	width: 100%;
 	bottom: 0;
 	padding: 1rem 0;
+	z-index: 1000;
 }
 
 header>ul {
 	display: flex;
 	color: #fff;
 	justify-content: space-around;
+}
+#head.active{
+	display: none;
 }
