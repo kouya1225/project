@@ -5,28 +5,36 @@
 	<title>biyousi</title>
 	<meta charset="utf-8">
 	<meta name=”viewport” content=”width=device-width,initial-scale=1.0,minimum-scale=1.0>
-	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/top.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/modal.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body>
 	<header id="head">
 		<ul>
 			<li>
-				<a href="#" onclick="togglePanel('profile')">PROFILE</a>
+				<a href="#" onclick="togglePanel('profile')">
+					<h3>PROFILE</h3>
+				</a>
 			</li>
 			<li>
-				<a href="#" onclick="togglePanel('menu')">MENU</a>
+				<a href="#" onclick="togglePanel('menu')">
+					<h3>MENU</h3>
+				</a>
 			</li>
 			<li>
-				<a href="#" onclick="togglePanel('contact')">CONTACT</a>
+				<a href="#" onclick="togglePanel('contact')">
+					<h3>CONTACT</h3>
+				</a>
 			</li>
 			<li>
-				<a href="#" onclick="togglePanel('access')">ACCESS</a>
+				<a href="#" onclick="togglePanel('access')">
+					<h3>ACCESS</h3>
+				</a>
 			</li>
 		</ul>
 	</header>
@@ -42,10 +50,8 @@
 	</section>
 	<section class="modal-panel" id="profile">
 		<div class="modal-content">
-			<span onclick="togglePanel('profile')">
-				<ion-icon name="close"></ion-icon>
-			</span>
-			<img class="face" src="pic/okumura.jpg">
+					<span  onclick="togglePanel('profile')">✖</span>
+			<img class="icon" src="pic/icon.png"  style="background-color:#000; margin: 3rem; ">
 			<h1>美容師です美容師です</h1>
 			<ul class="pro">
 				<li>最高です最高です最高です最高です最高です最高です</li>
@@ -56,9 +62,7 @@
 	</section>
 	<section class="modal-panel" id="menu">
 		<div class="modal-content" id="menu-inner">
-			<span onclick="togglePanel('menu')">
-				<ion-icon name="close"></ion-icon>
-			</span>
+				<span  onclick="togglePanel('menu')">✖</span>
 			<h2>MENU</h2>
 			<ul class="menus">
 				<li class="menu-left">CUT</li>
@@ -76,9 +80,7 @@
 	</section>
 	<section class="modal-panel" id="contact">
 		<div class="modal-content" id="contact-inner">
-			<span onclick="togglePanel('contact')">
-				<ion-icon name="close"></ion-icon>
-			</span>
+			<span onclick="togglePanel('contact')">✖</span>
 			<h1>CONTACT</h1>
 			<ul>
 				<li>Mail:kouya.slugger1225@gmail.com</li>
@@ -96,10 +98,8 @@
 		</div>
 	</section>
 	<section class="modal-panel" id="access">
-		<span href="#" onclick="togglePanel('access')" class="black">
-			<ion-icon name="close"></ion-icon>
-		</span>
 		<div class="modal-content">
+			<span href="#" onclick="togglePanel('access')" >✖</span>
 			<img src="pic/map.jpg">
 			<h3>千代田線表参道駅より5分</h3>
 			<h3>b1出口を出て直進してBALENCIAGAを過ぎて右へそこから200mで到着</h3>
