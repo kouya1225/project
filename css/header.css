@@ -4,13 +4,24 @@ header {
 	bottom: 0;
 	padding: 1rem 0;
 	z-index: 1000;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 
 header>ul {
 	display: flex;
 	color: #fff;
 	justify-content: space-around;
+	 font-family: sans-serif;
 }
 #head.active{
 	display: none;
 }
+@media screen and (max-width:768px) {
+
+    /* スマートフォン用CSS記述 */
+    #head{
+
+    }
+  }
