@@ -1,3 +1,9 @@
+@media screen and (max-width: 1000px) { 
+ .modal-content{
+  zoom:170%;
+  padding: 2rem 0;
+ }
+}
 .modal-panel {
   position: fixed;
   width: 100%;
@@ -153,3 +159,4 @@
 .black {
   color: black;
 }
+

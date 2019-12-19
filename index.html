@@ -4,7 +4,7 @@
 <head>
 	<title>biyousi</title>
 	<meta charset="utf-8">
-	<meta name=”viewport” content=”width=device-width,initial-scale=1.0,minimum-scale=1.0>
+	<meta name=”viewport” content=”width=device-width,initial-scale=1.0,minimum-scale=1.0,minimum-scale=1.0>
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/top.css">
@@ -29,7 +29,15 @@
 			</li>
 		</ul>
 	</header>
+			<ul id="sumafomenu">
+		<li><a class="on" href="#profile" onclick="togglePanel('profile')">Profile</a></li>
+		<li><a href="#menu" onclick="togglePanel('menu')">Menu</a></li>
+		<li><a href="#contact" onclick="togglePanel('contact')">Contact</a></li>
+		<li><a href="#access" onclick="togglePanel('access')">Access</a></li>
+	</ul>
+
 	<section id="top">
+
 		<div class="content">
 			<img class="icon" src="pic/icon.png">
 			<h1>KOUYA OKUMURA</h1>
@@ -118,6 +126,7 @@
 	function togglePanel(id) {
 		document.getElementById(id).classList.toggle('active');
 		document.getElementById('head').classList.toggle('active');
+		document.getElementById('sumafomenu').classList.toggle('active');
 	}
 	</script>
 </body>
