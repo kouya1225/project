@@ -22,4 +22,11 @@ header>ul {
 	#head ul li a{
 		font-size: 200%;
 	}
+	#head{
+		padding: 2rem;
+	}
+}
+@keyframes fade-in1 {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }

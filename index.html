@@ -41,7 +41,7 @@
 	</section>
 	<section class="modal-panel" id="profile">
 		<div class="modal-content">
-			<span onclick="togglePanel('profile')" style="color: #fff;">
+			<span onclick="togglePanel('profile')"  style="color: #fff;">
 				<ion-icon name="close"></ion-icon>
 			</span>
 			<img class="icon" src="pic/icon.jpg" style="background-color: #000; margin-top:2rem;margin-bottom:1.5rem;width: 2;">
@@ -115,15 +115,15 @@
 			<h3>b1出口を出て直進してBALENCIAGAを右</h3>
 			<h3>※ご来店はご予約を済ましてからお願いいたします。</h3>
 			<img class="map" src="pic/map.jpg">
-			
 		</div>
 	</section>
 	<script type="text/javascript">
 	function togglePanel(id) {
 		document.getElementById(id).classList.toggle('active');
+		document.getElementById('head').classList.add('effect-fade');
 		document.getElementById('head').classList.toggle('active');
-		document.getElementById('sumafomenu').classList.toggle('active');
 	}
+	
 	</script>
 </body>
 

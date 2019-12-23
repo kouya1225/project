@@ -40,11 +40,14 @@
   z-index: 30;
   display: none;
   padding: 3rem 0;
+ 
+ 
 }
 
 .modal-panel.active {
   display: block;
-  background-color:#000;  
+  background-color:#000;
+  transition-duration: 0.5s 
 }
 
 .modal-content>span {
@@ -68,6 +71,12 @@
   padding-top:4rem;
   overflow: scroll;
   background-image:url(../pic/image.jpg);  
+
+ 
+}
+.modal-panel.is-show {
+  /* .boxの状態変化後を指定 */
+  opacity: 1;
 }
 
 #profile .face {
@@ -188,4 +197,16 @@
 #access img{
   width: 80%;
 }
-
+.effect-fade{
+   animation-name: fade-in;
+  animation-delay: 5s;
+   animation-timing-function: ease-out;
+  animation-delay:1s; 
+  animation-iteration-count:1; 
+  animation-direction:normal;  
+}
+@keyframes fade-in{
+  0% {opacity: 0}
+  50%{opacity: 0.5}
+  100% {opacity: 1}
+}
