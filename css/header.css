@@ -18,6 +18,7 @@ header>ul {
 #head.active{
 	display: none;
 }
+
 @media screen and (max-width: 1000px){
 	#head ul li a{
 		font-size: 200%;
@@ -26,7 +27,4 @@ header>ul {
 		padding: 2rem;
 	}
 }
-@keyframes fade-in1 {
-  0% {opacity: 0}
-  100% {opacity: 1}
-}
+

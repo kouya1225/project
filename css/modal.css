@@ -19,24 +19,25 @@
   height:25rem;
   margin:3rem 0 3rem 0;
 }
-.modal-content>.pro>li{
-  font-size: 170%;
+.modal-content>.pro{
+  font-size: 200%;
 }
 #contact-inner ul li {
-    font-size: ;
     text-align: center;
     line-height: 170%;
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
 }
+
+/*nomal*/
 .modal-panel {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: ;
   z-index: 30;
   display: none;
   padding: 3rem 0;
@@ -46,8 +47,8 @@
 
 .modal-panel.active {
   display: block;
-  background-color:#000;
-  animation:fade-in 1s ease; 
+  background-color:rgba(0, 0, 0, 0.5);
+  animation:fade-in 0.2s ease; 
 }
 
 .modal-content>span {
@@ -63,20 +64,20 @@
 
 .modal-content {
   position: relative;
-  color: #fff;
+  color: #000;
   background-color: #fff;
   width: 90%;
   height: 100%;
   margin: 0 auto;
   padding-top:4rem;
-  overflow: scroll;
-  background-image:url(../pic/image.jpg);  
-
- 
+  overflow: scroll;  
 }
-.modal-panel.is-show {
-  /* .boxの状態変化後を指定 */
-  opacity: 1;
+.modal-content h2{
+  font-size: 2.5rem;
+  margin: 1.2rem;
+}
+.black{
+  color: #000;
 }
 
 #profile .face {
@@ -118,19 +119,19 @@
   font-size: 2.5rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  color: #fff;
+  color: #000;
 }
 
 #menu-inner {
   background-size: cover;
-  color: #fff;
+  color: #000;
 }
 
 .menus {
   font-size: 1.7rem;
   width: 70%;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
   padding-top: 1rem;
 }
 
@@ -145,7 +146,6 @@
 
 #contact-inner {
   background-size: cover;
-  color: #fff;
 }
 #contact-inner h2{
   font-size: 2.5rem;
@@ -162,7 +162,7 @@
   font-size: 200%;
   text-align: center;
   line-height: 170%;
-  color: #fff;
+  color: #000;
 }
 
 .sns {
@@ -175,6 +175,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #000;
+}
+.sns-icon a{
+  color: #000;
 }
 
 .logo {
@@ -197,7 +201,6 @@
 #access img{
   width: 80%;
 }
-
 @keyframes fade-in{
    0% {
         opacity:  0.3;                /* 透明度指定 */
