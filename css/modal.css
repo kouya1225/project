@@ -73,8 +73,7 @@
   overflow: scroll;  
 }
 .modal-content h2{
-  font-size: 2.5rem;
-  margin: 1.2rem;
+  font-size: 2.5rem; 
 }
 .black{
   color: #000;
@@ -115,13 +114,6 @@
   /*アイコン色*/
 }
 
- #menu-inner h2 {
-  font-size: 2.5rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  color: #000;
-}
-
 #menu-inner {
   background-size: cover;
   color: #000;
@@ -147,10 +139,6 @@
 #contact-inner {
   background-size: cover;
 }
-#contact-inner h2{
-  font-size: 2.5rem;
-  margin: 1.2rem;
-}
 
 #contact-inner ul {
   width: 100%;
@@ -168,7 +156,6 @@
 .sns {
   padding-top: 1.6rem;
 }
-
 
 .sns .sns-icon {
   letter-spacing: 200%;
@@ -200,6 +187,9 @@
 
 #access img{
   width: 80%;
+}
+#access h2{
+  padding-bottom:4rem; 
 }
 @keyframes fade-in{
    0% {
