@@ -4,7 +4,6 @@ header {
 	bottom: 0;
 	padding: 1rem 0;
 	z-index: 1000;
-	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 1.2rem;
 }
@@ -14,6 +13,9 @@ header>ul {
 	color: #fff;
 	justify-content: space-around;
 	 font-family: sans-serif;
+}
+header a{
+	font-family: 'Ibarra Real Nova', serif;
 }
 #head.active{
 	display: none;

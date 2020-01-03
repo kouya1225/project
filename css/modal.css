@@ -4,8 +4,13 @@
   zoom:200%;
   width: 90%;
  }
+ .modal-content h1{
+  font-size: 100%;
+  letter-spacing: 0;
+ }
  .modal-content h2{
   font-size: 2.5rem;
+  font-weight: 500;
  }
  .modal-content h3{
   line-height: 200%;
@@ -14,7 +19,9 @@
     font-size: 2rem;
     padding-top:4rem; 
     line-height: 200%;
+    font-weight: 600;
 }
+
 .map{
   height:25rem;
   margin:3rem 0 3rem 0;
@@ -27,6 +34,7 @@
     line-height: 170%;
     color: #000;
     font-weight: bold;
+    font-weight: 500;
 }
 }
 
@@ -73,7 +81,8 @@
   overflow: scroll;  
 }
 .modal-content h2{
-  font-size: 2.5rem; 
+  font-size: 3rem; 
+  font-family: 'Bad Script', cursive;
 }
 .black{
   color: #000;
@@ -87,12 +96,12 @@
 
 .modal-content h1 {
   padding: 1rem;
-  font-size: 400%;
-  letter-spacing: 3px;
+  font-size: 2.7rem;
+  font-weight: 600;
+
 }
 
 .modal-content>.pro {
-  padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
   font-size: 150%;
 }
@@ -100,8 +109,8 @@
 .modal-content>.pro>li {
   line-height: 1.5;
   padding: 0.5em 0;
+  font-family: "Noto Sans JP";
   list-style-type: none !important;
-  /*ポチ消す*/
   letter-spacing: 2px;
   font-size: 130%;
 }
@@ -122,14 +131,17 @@
 .menus {
   font-size: 1.7rem;
   width: 70%;
+  font-weight: 600;
   margin: 0 auto;
   color: #000;
-  padding-top: 1rem;
+  padding-top: 3rem;
+  font-family: 'Bad Script', cursive;
 }
 
 .menu-left {
   display: flex;
   justify-content: left;
+
 }
 
 .menu-right {
@@ -142,8 +154,6 @@
 
 #contact-inner ul {
   width: 100%;
-  margin:3rem 0 3rem 0;
-
 }
 
 #contact-inner ul li {
@@ -151,6 +161,7 @@
   text-align: center;
   line-height: 170%;
   color: #000;
+  font-family: "Noto Sans JP";
 }
 
 .sns {
@@ -189,7 +200,10 @@
   width: 80%;
 }
 #access h2{
-  padding-bottom:4rem; 
+  padding-bottom:2rem; 
+}
+#access h3{
+  font-family: "Noto Sans JP";
 }
 @keyframes fade-in{
    0% {

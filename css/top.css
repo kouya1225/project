@@ -10,6 +10,11 @@
 }
 #top h1{
 	border-top: 1.8px solid #fff;
+	font-family: 'Bad Script', cursive;
+}
+#top h4{
+	 font-family: "Noto Sans JP";
+	 font-weight: 300;
 }
 #top p{
 	border-bottom: 1.8px solid #fff;
