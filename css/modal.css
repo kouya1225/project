@@ -79,6 +79,7 @@
   margin: 0 auto;
   padding-top:4rem;
   overflow: scroll;  
+  border-radius: 1%;
 }
 .modal-content h2{
   font-size: 3rem; 
