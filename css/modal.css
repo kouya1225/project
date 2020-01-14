@@ -4,37 +4,44 @@
   zoom:200%;
   width: 90%;
  }
+ 
  .modal-content h1{
   font-size: 100%;
   letter-spacing: 0;
  }
+
  .modal-content h2{
   font-size: 2.5rem;
   font-weight: 500;
  }
+
  .modal-content h3{
   line-height: 200%;
    font-weight: 600;
  }
+
  .menus {
     font-size: 2rem;
     padding-top:4rem; 
     line-height: 200%;
 }
+
 .map{
   height:25rem;
   margin:3rem 0 3rem 0;
    font-weight: 500;
 }
+
 .modal-content>.pro{
   font-size: 200%;
 }
+
 #contact-inner ul li {
     text-align: center;
     line-height: 170%;
     color: #000;
     font-weight: bold;
-}
+  }
 }
 
 /*nomal*/
@@ -48,8 +55,6 @@
   z-index: 30;
   display: none;
   padding: 3rem 0;
- 
- 
 }
 
 .modal-panel.active {
@@ -79,10 +84,12 @@
   padding-top:4rem;
   overflow: scroll;  
 }
+
 .modal-content h2{
    font-size: 3rem; 
   font-family: 'Bad Script', cursive;
 }
+
 .black{
   color: #000;
 }
@@ -97,7 +104,6 @@
   padding: 1rem;
   font-size: 2.7rem;
   font-weight: 600;
-
 }
 
 .modal-content>.pro {
@@ -112,14 +118,6 @@
    font-family: "Noto Sans JP"
   letter-spacing: 2px;
   font-size: 130%;
-}
-
-.modal-content>.pro>li:before {
-  position: absolute;
-  left: 1rem;
-  /*左端からのleftアイコンまで*/
-  color: #000;
-  /*アイコン色*/
 }
 
 #menu-inner {
@@ -198,12 +196,15 @@
 #access img{
   width: 80%;
 }
+
 #access h2{
   padding-bottom:2rem; 
 }
+
 #access h3{
   font-family: "Noto Sans JP";
 }
+
 @keyframes fade-in{
    0% {
         opacity:  0.3;                /* 透明度指定 */

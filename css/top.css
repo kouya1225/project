@@ -8,28 +8,34 @@
 	justify-content: center;
 	align-items: center;
 }
+
 #top h1{
 	border-top: 1.8px solid #fff;
 	font-family: 'Bad Script', cursive;
 }
+
 #top h4{
 	 font-family: "Noto Sans JP";
 	 font-weight: 300;
 }
+
 #top p{
 	border-bottom: 1.8px solid #fff;
 }
+
 .content{
 	position: relative;
 	color: #fff;
 	font-size: 3rem;
 	width: 100%;
 }
+
 .icon {
 	width: 200px;
 	border-radius: 100%;
 	border:4px solid #fff;
 }
+
 @media screen and (max-width: 1000px){
 	.icon{
 		width: 300px;

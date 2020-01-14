@@ -14,9 +14,11 @@ header>ul {
 	color: #fff;
 	justify-content: space-around;
 }
+
 #head.active{
 	display: none;
 }
+
 header a{
 	font-family: 'Ibarra Real Nova', serif;
 }
@@ -25,8 +27,10 @@ header a{
 	#head ul li a{
 		font-size: 200%;
 	}
+
 	#head{
 		padding: 2rem;
 	}
+
 }
 
