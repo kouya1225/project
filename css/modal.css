@@ -1,35 +1,35 @@
 @media screen and (max-width: 1000px) { 
- 
+
  .modal-content{
   zoom:200%;
   width: 90%;
- }
- 
- .modal-content h1{
+}
+
+.modal-content h1{
   font-size: 100%;
   letter-spacing: 0;
- }
+}
 
- .modal-content h2{
+.modal-content h2{
   font-size: 2.5rem;
   font-weight: 500;
- }
+}
 
- .modal-content h3{
+.modal-content h3{
   line-height: 200%;
-   font-weight: 600;
- }
+  font-weight: 600;
+}
 
- .menus {
-    font-size: 2rem;
-    padding-top:4rem; 
-    line-height: 200%;
+.menus {
+  font-size: 2rem;
+  padding-top:4rem; 
+  line-height: 200%;
 }
 
 .map{
   height:25rem;
   margin:3rem 0 3rem 0;
-   font-weight: 500;
+  font-weight: 500;
 }
 
 .modal-content>.pro{
@@ -37,11 +37,14 @@
 }
 
 #contact-inner ul li {
-    text-align: center;
-    line-height: 170%;
-    color: #000;
-    font-weight: bold;
-  }
+  text-align: center;
+  line-height: 170%;
+  color: #000;
+  font-weight: bold;
+}
+.innner{
+  display:block;
+}
 }
 
 /*nomal*/
@@ -54,7 +57,7 @@
   background: ;
   z-index: 30;
   display: none;
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 
 .modal-panel.active {
@@ -68,7 +71,7 @@
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #fff;
+  color: #000;
   font-size: 2rem;
   z-index: 100;
   margin: 1rem;
@@ -86,38 +89,61 @@
 }
 
 .modal-content h2{
-   font-size: 3rem; 
-  font-family: 'Bad Script', cursive;
+ font-size: 2.3rem; 
+ font-weight: 100;
+}
+.vertical{
+  position: relative;
+  display: block;
+  padding: 0 0 0 4rem;
+  width: 50%;
 }
 
 .black{
   color: #000;
 }
-
-#profile .face {
-  position: relative;
-  width: calc(100% + 2rem);
-  margin: -1rem 0 0 -1rem;
+#profile img{
+  width: 50%;
+}
+.innner{
+  display: flex;
+  padding: 4rem;
 }
 
 .modal-content h1 {
-  padding: 1rem;
   font-size: 2.7rem;
-  font-weight: 600;
+  font-weight: 200;
+  padding-bottom:3rem; 
 }
-
-.modal-content>.pro {
-  position: relative;
-  font-size: 150%;
+.pro{
+  text-align: left;
+  font-size: 120%;
+}
+.pro li:nth-child(odd){
+  padding-bottom: 1rem;
+}
+.pro li:nth-child(even){
+  padding-left: 10%; 
+  padding-bottom: 2rem;
 }
 
 .modal-content>.pro>li {
-  line-height: 1.5;
-  padding: 0.5em 0;
+  line-height: .5;
+  padding-top: 1rem;
   list-style-type: none !important;
-   font-family: "Noto Sans JP"
   letter-spacing: 2px;
   font-size: 130%;
+}
+.modal-content>.pro>li:nth-child(odd) {
+  font-size: 140%;
+  padding-top: 2.3rem;
+  font-weight: 600;
+}
+.innner a{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
 }
 
 #menu-inner {
@@ -125,28 +151,66 @@
   color: #000;
 }
 
-.menus {
-  font-size: 1.7rem;
-  width: 70%;
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  color: #000;
-  font-weight: 600;
-   padding-top: 3rem;
-  font-family: 'Bad Script', cursive;
 }
 
+.menus {
+  margin: 0 auto;
+  color: #000;
+}
+.menus li{
+  text-align: left;
+}
+.menu-flex{
+  display: flex;
+  font-size: 120%;
+  width: 100%;
+}
+.menu-flex li{
+  padding-bottom: 1rem;
+  padding-right: 10rem;
+}
+.right li:nth-child(1){
+  color: #fff;
+}
+.right li:nth-child(5){
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.right li:nth-child(8){
+  color: #fff;
+  padding-top: 1rem;
+}
+.right li
 .menu-left {
   display: flex;
   justify-content: left;
 }
+.menus li:nth-child(4){
+  padding-bottom: 2rem;
+}
+.menus li:nth-child(7){
+ padding-bottom: 2rem;
+}
+
 
 .menu-right {
   text-align: right;
 }
+#menu img{
+  width: 125%;
+}
 
 #contact-inner {
   background-size: cover;
-}
+padding-top: 18rem;
+
+  }
 
 #contact-inner ul {
   width: 100%;
@@ -157,7 +221,6 @@
   text-align: center;
   line-height: 170%;
   color: #000;
-    font-family: "Noto Sans JP";
 
 }
 
@@ -177,7 +240,8 @@
 }
 
 .logo {
-  font-size: 5rem;
+  font-size: 2rem;
+  padding-top:0.75rem;
 }
 
 #back {
@@ -190,28 +254,44 @@
 
 #access {
   line-height: 300%;
-  font-size: 150%;
 }
 
 #access img{
-  width: 80%;
+  width: 50%;
 }
 
 #access h2{
   padding-bottom:2rem; 
 }
+.block{
+  position: relative;
+  display: block;
+  padding:0 4rem 4rem 4rem;
+  text-align: left;
+}
+.block a{
+      position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+table{
+  text-align: center;
+  border:solid 1px #000;
+  border-collapse: collapse;
+  width: 50%;
+  padding-bottom: 4rem;
 
-#access h3{
-  font-family: "Noto Sans JP";
 }
 
+
 @keyframes fade-in{
-   0% {
-        opacity:  0.3;                /* 透明度指定 */
-        top: 50px;                  /* 位置指定 */
-    }
-    100% {
-        opacity:  1;                /* 透明度指定 */
-        top: 0;                     /* 位置指定 */
-    }
+ 0% {
+  opacity:  0.3;                /* 透明度指定 */
+  top: 50px;                  /* 位置指定 */
+}
+100% {
+  opacity:  1;                /* 透明度指定 */
+  top: 0;                     /* 位置指定 */
+}
 }
