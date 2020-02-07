@@ -1,51 +1,3 @@
-@media screen and (max-width: 1000px) { 
-
- .modal-content{
-  zoom:200%;
-  width: 90%;
-}
-
-.modal-content h1{
-  font-size: 100%;
-  letter-spacing: 0;
-}
-
-.modal-content h2{
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
-.modal-content h3{
-  line-height: 200%;
-  font-weight: 600;
-}
-
-.menus {
-  font-size: 2rem;
-  padding-top:4rem; 
-  line-height: 200%;
-}
-
-.map{
-  height:25rem;
-  margin:3rem 0 3rem 0;
-  font-weight: 500;
-}
-
-.modal-content>.pro{
-  font-size: 200%;
-}
-
-#contact-inner ul li {
-  text-align: center;
-  line-height: 170%;
-  color: #000;
-  font-weight: bold;
-}
-.innner{
-  display:block;
-}
-}
 
 /*nomal*/
 .modal-panel {
@@ -86,47 +38,18 @@
   margin: 0 auto;
   padding-top:4rem;
   overflow: scroll;  
+  z-index: 101;
 }
 
 .modal-content h2{
  font-size: 2.3rem; 
  font-weight: 100;
 }
-.vertical{
-  position: relative;
-  display: block;
-  padding: 0 0 0 4rem;
-  width: 50%;
-}
-
-.black{
-  color: #000;
-}
-#profile img{
-  width: 50%;
-}
-.innner{
-  display: flex;
-  padding: 4rem;
-}
-
 .modal-content h1 {
   font-size: 2.7rem;
   font-weight: 200;
   padding-bottom:3rem; 
 }
-.pro{
-  text-align: left;
-  font-size: 120%;
-}
-.pro li:nth-child(odd){
-  padding-bottom: 1rem;
-}
-.pro li:nth-child(even){
-  padding-left: 10%; 
-  padding-bottom: 2rem;
-}
-
 .modal-content>.pro>li {
   line-height: .5;
   padding-top: 1rem;
@@ -139,6 +62,71 @@
   padding-top: 2.3rem;
   font-weight: 600;
 }
+.vertical{
+  position: relative;
+  display: block;
+  padding: 2rem 0 0 4rem;
+  width: 50%;
+}
+.modal-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #efecea;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  display: none;
+  z-index: 102;
+  
+}
+.footer-inner{
+  display: flex;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+
+}
+.footer-inner p{
+ background-color:hsla(349, 2%, 4%, 0.41);
+ font-size: 3rem;
+ color: #fff;
+ border-radius: 2px;
+ margin: 1rem;
+}
+
+.black{
+  color: #000;
+}
+
+#profile img{
+  width: 50%;
+  padding-left: 2rem;
+  padding-top:2rem;
+}
+.inner{
+  display: flex;
+  padding:2remf 4rem 4rem 4rem;
+}
+
+
+.pro{
+  text-align: left;
+  font-size: 120%;
+  white-space: nowrap;
+}
+.pro li:nth-child(odd){
+  padding-bottom: 1rem;
+  white-space: nowrap;
+}
+.pro li:nth-child(even){
+  padding-bottom: 2rem;
+}
+
+
 .innner a{
   position: absolute;
   right: 0;
@@ -169,7 +157,9 @@
   display: flex;
   font-size: 120%;
   width: 100%;
+  padding-left: 4rem;
 }
+
 .menu-flex li{
   padding-bottom: 1rem;
   padding-right: 10rem;
@@ -208,9 +198,9 @@
 
 #contact-inner {
   background-size: cover;
-padding-top: 18rem;
+  padding-top: 18rem;
 
-  }
+}
 
 #contact-inner ul {
   width: 100%;
@@ -252,14 +242,10 @@ padding-top: 18rem;
   width: 10rem;
 }
 
-#access {
-  line-height: 300%;
-}
-
 #access img{
   width: 50%;
+  padding-left: 4rem;
 }
-
 #access h2{
   padding-bottom:2rem; 
 }
@@ -270,19 +256,41 @@ padding-top: 18rem;
   text-align: left;
 }
 .block a{
-      position: absolute;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
+  bottom: 0;
+  cursor: pointer;
 }
-table{
+.access-table{
   text-align: center;
   border:solid 1px #000;
   border-collapse: collapse;
   width: 50%;
-  padding-bottom: 4rem;
+}
+.menu-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid #e2e2e2;
+  margin:0 auto;
 
 }
+.menu-table th{
+  padding: calc(15px - .415em) 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-weight: normal;
+  padding-right:12rem; 
+}
+.menu-table td{
+  padding: calc(15px - .415em) 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-weight: normal;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-table th:nth-child(1){
+}
+
 
 
 @keyframes fade-in{
@@ -293,5 +301,160 @@ table{
 100% {
   opacity:  1;                /* 透明度指定 */
   top: 0;                     /* 位置指定 */
+}
+}
+@media screen and (max-width: 1000px) { 
+
+ .modal-content{
+  zoom:200%;
+  width: 100%!important;
+}
+.modal-panel{
+  padding: 0!important;
+}
+
+.modal-content h1{
+  font-size: 100%;
+  letter-spacing: 0;
+}
+
+.modal-content h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.modal-content h3{
+  line-height: 200%;
+  font-weight: 600;
+}
+.modal-content>.pro{
+  font-size: 200%; 
+}
+.menus {
+  font-size: 2rem;
+  padding-top:4rem; 
+  line-height: 200%;
+}
+
+.map{
+  height:25rem;
+  margin:1.5rem 0 6rem 0;
+  font-weight: 500;
+}
+
+
+
+#contact-inner ul li {
+  text-align: center;
+  line-height: 170%;
+  color: #000;
+  font-weight: bold;
+}
+.inner{
+  display:block;
+  padding: 0;
+}
+.inner h1{
+  font-size: 2rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.flex{
+  display: block!important;
+}
+.block{
+  white-space: nowrap;
+  padding: 0 !important;
+}
+.pro {
+  text-align: left;
+  font-size: 120%;
+  white-space: nowrap;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  padding-left: 8rem;
+padding-bottom: 4rem;
+}
+.vertical{
+  margin: 0 auto;
+  padding: 0!important;
+  width: 100%!important;
+}
+.vertical a{
+  position: absolute;
+  bottom: 0;
+}
+.inner{
+  display: block!important;
+  width: 100%!important;
+}
+#profile img{
+  width: 100%!important;
+  padding-top: 2rem;
+  width: 80%!important
+}
+#profile h1{
+  padding: 3rem;
+}
+#menu-inner a{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem!important;
+}
+.menu-flex{
+  display: block!important;
+}
+.map{
+  width: 100%!important;
+}
+.block{
+  padding: 0 4rem 0 4rem!important;
+}
+.block p{
+  line-height: initial!important;
+  text-align: left;
+}
+.block a{
+  bottom: initial!important;
+  font-size: initial;
+}
+.flex{
+  padding-bottom: 10rem;
+}
+.modal-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:#efecea;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  display: block!important;
+  
+}
+.footer-inner{
+  display: flex;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3rem;
+  margin: 0 auto;
+
+}
+.footer-inner p{
+ background-color:hsl(349, 92%, 48%);
+ font-size: 1.8rem;
+}
+.block p{
+  line-height: 1px;
+}
+
+#access img{
+  width: 50%;
+  padding-left: 0!important;
 }
 }

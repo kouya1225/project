@@ -6,13 +6,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image:url(../pic/icon.jpg); 
+	background-image:url(../pic/back.jpg); 
 	background-size:cover; 
 }
 
-#top h4{
-	 font-weight: 300;
-}
 #top p{
 	font-size: 2.3rem;
 }
@@ -47,20 +44,4 @@ margin-left: 1rem;
 	color: #000;
 	font-size: 3rem;
 	width: 100%;
-}
-
-.icon {
-	width: 200px;
-	border-radius: 100%;
-}
-a:hover{
-	color: #990000;
-	border-bottom:#990000 solid;
-}
-
-@media screen and (max-width: 1000px){
-	.icon{
-		width: 300px;
-		margin: 40px;
-	}
 }
